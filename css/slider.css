@@ -1,0 +1,50 @@
+
+.swiper-container {
+    width: 100%;
+}
+.swiper-button-next,
+.swiper-button-prev {
+    color: #f34648;
+}
+.card-list .card-item {
+    height: auto;
+    user-select: none;
+    padding: 35px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    backdrop-filter: blur(30px);
+    background: #f2f2f2;
+}
+
+.card-list .card-item .user-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 40px;
+    border: 4px solid #f34648;
+    padding: 4px;
+}
+.card-list .card-item .user-name{
+    font-size: 26px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.card-list .card-item .message-btn {
+    font-size: 16px;
+    padding: 10px 35px;
+    color: #fff;
+    font-weight: 500;
+    cursor: pointer;
+    background-color: #f34648;
+    border-radius: 4px;
+    border: 2px solid transparent;
+    transition: 0.5s;
+}
+
+.card-list .card-item .message-btn:hover {
+    background-color: #b31d1d;
+}
