@@ -76,6 +76,10 @@ header .intro {
     z-index: 2;
 }
 
+header .intro .intro-title {
+    font-size: 4rem;
+}
+
 @media (max-width: 920px) {
     header:after {
         width: 60%;
@@ -101,6 +105,9 @@ header .intro {
     }
     header .intro h4 {
         opacity: 0;
+    }    
+    header .intro .intro-title {
+        font-size: 3rem;
     }
 }
 
