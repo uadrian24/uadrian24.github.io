@@ -393,9 +393,11 @@ footer .social-icons a {
 footer .social-icons a img {
     transition: .2s ease;
     height: 46px;
+    opacity: 1;
 }
 footer .social-icons a img:hover {
-    filter: brightness(120%);
+    filter: brightness(120%);    
+    opacity: .6;
 }
 footer .terms {
     color: #fff;
