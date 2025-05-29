@@ -78,6 +78,10 @@ header .intro {
 
 header .intro .intro-title {
     font-size: 4rem;
+    font-weight: 900;
+}
+header .intro h4 {
+    font-weight: 900;
 }
 
 @media (max-width: 920px) {
