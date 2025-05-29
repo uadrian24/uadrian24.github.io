@@ -391,7 +391,11 @@ footer .social-icons a {
     text-decoration: none;
 }
 footer .social-icons a img {
+    transition: .2s ease;
     height: 46px;
+}
+footer .social-icons a img:hover {
+    filter: brightness(120%);
 }
 footer .terms {
     color: #fff;
