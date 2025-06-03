@@ -6,6 +6,13 @@ function toggleMenu() {
     mainNav.classList.toggle("menu-opened");
 }
 
+document.addEventListener("click", (event) => {
+    let target = event.target;
+    if (target !== mainNav && !mainNav.contains(target) && mainNav.classList.contains("menu-opened")) {
+        mainNav.classList.remove("menu-opened");
+    }
+});
+
 function setActive(e) {
     const parent = e.target.parentNode;
     const active = parent.querySelector(".active");
