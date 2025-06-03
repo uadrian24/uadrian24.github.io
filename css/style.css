@@ -304,6 +304,27 @@ section {
     }
 }
 
+.post .post-meta,
+.post .post-share {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #f2f2f2;
+}
+.post .post-meta .post-date {
+    font-weight: bold;
+}
+.post .post-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+.post .post-content ul {
+    margin-left: 40px;
+}
+
 .shop .shop-list {
     display: grid;
     gap: 30px;
