@@ -89,7 +89,7 @@ header .intro .intro-title {
 header .intro h4 {
     font-weight: 900;
 }
-@media (max-width:1100) {    
+@media (max-width:1100px) {
     header .intro .intro-title {
         font-size: 5rem;
     }
@@ -107,10 +107,9 @@ header .intro h4 {
     .home-page header,
     .home-page header:has(.menu-opened) {
         height: auto;
-        aspect-ratio: 16 / 9;
     }
     header:after {
-        width: 80%;
+        width: 85%;
     } 
     header .intro {
         padding-top: 50px;
@@ -119,18 +118,19 @@ header .intro h4 {
         font-size: 1.25rem;
     }
 }
+@media (max-width: 620px) {
+    header .intro h4 {
+        opacity: 0;
+    }
+}
 @media (max-width: 560px) {
     header .intro {
         padding-top: 50px;
     }
     header .intro .intro-title {
-        font-size: 2.5rem;
-    }
-    header .intro h4 {
-        opacity: 0;
-    }    
-    header .intro .intro-title {
-        font-size: 3rem;
+        font-size: 3rem;        
+        margin-top: 20px;
+        margin-bottom: -20px;
     }
 }
 
