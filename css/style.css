@@ -89,17 +89,17 @@ header .intro .intro-title {
 header .intro h4 {
     font-weight: 900;
 }
-
+@media (max-width:1100) {    
+    header .intro .intro-title {
+        font-size: 5rem;
+    }
+}
 @media (max-width: 920px) {
     header:after {
         width: 60%;
     }
-    header .intro .intro-title {
-        font-size: 4rem;
-    }
 }
 @media (max-width: 768px) {    
-    header,
     header:has(.menu-opened) {
         aspect-ratio: 16 / 10;
         height: 248px;
@@ -107,6 +107,7 @@ header .intro h4 {
     .home-page header,
     .home-page header:has(.menu-opened) {
         height: auto;
+        aspect-ratio: 16 / 9;
     }
     header:after {
         width: 80%;
