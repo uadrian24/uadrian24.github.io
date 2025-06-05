@@ -81,11 +81,11 @@ header .intro {
     right: 0;
     z-index: 2;
 }
-
 header .intro .intro-title {
-    font-size: 4rem;
+    font-size: 6rem;
     font-weight: 900;
 }
+
 header .intro h4 {
     font-weight: 900;
 }
@@ -93,7 +93,10 @@ header .intro h4 {
 @media (max-width: 920px) {
     header:after {
         width: 60%;
-    } 
+    }
+    header .intro .intro-title {
+        font-size: 4rem;
+    }
 }
 @media (max-width: 768px) {
     .home-page header,
@@ -114,6 +117,9 @@ header .intro h4 {
 @media (max-width: 560px) {
     header .intro {
         padding-top: 50px;
+    }
+    header .intro .intro-title {
+        font-size: 2.5rem;
     }
     header .intro h4 {
         opacity: 0;
