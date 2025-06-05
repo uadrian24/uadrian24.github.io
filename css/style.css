@@ -98,11 +98,15 @@ header .intro h4 {
         font-size: 4rem;
     }
 }
-@media (max-width: 768px) {
-    .home-page header,
+@media (max-width: 768px) {    
+    header,
     header:has(.menu-opened) {
         aspect-ratio: 16 / 10;
         height: 248px;
+    }
+    .home-page header,
+    .home-page header:has(.menu-opened) {
+        height: auto;
     }
     header:after {
         width: 80%;
